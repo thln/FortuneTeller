@@ -29,6 +29,7 @@
     inputVC.completionHandler = ^(NSString *text) {
             if (text != nil)
             {
+                //test
                 self.model.secretAnswer = text;
             }
             [self dismissViewControllerAnimated:YES completion:nil];

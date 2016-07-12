@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA22E83E19E0E4A100F7831F"
-               BuildableName = "Lab3Fortunes.app"
-               BlueprintName = "Lab3Fortunes"
-               ReferencedContainer = "container:Lab3Fortunes.xcodeproj">
+               BuildableName = "Lab5FortunesDataPersistence.app"
+               BlueprintName = "Lab5FortunesDataPersistence"
+               ReferencedContainer = "container:Lab5FortunesDataPersistence.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA22E85F19E0E4A100F7831F"
-               BuildableName = "Lab3FortunesTests.xctest"
-               BlueprintName = "Lab3FortunesTests"
-               ReferencedContainer = "container:Lab3Fortunes.xcodeproj">
+               BuildableName = "Lab5FortunesDataPersistenceTests.xctest"
+               BlueprintName = "Lab5FortunesDataPersistenceTests"
+               ReferencedContainer = "container:Lab5FortunesDataPersistence.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA22E83E19E0E4A100F7831F"
-            BuildableName = "Lab3Fortunes.app"
-            BlueprintName = "Lab3Fortunes"
-            ReferencedContainer = "container:Lab3Fortunes.xcodeproj">
+            BuildableName = "Lab5FortunesDataPersistence.app"
+            BlueprintName = "Lab5FortunesDataPersistence"
+            ReferencedContainer = "container:Lab5FortunesDataPersistence.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA22E83E19E0E4A100F7831F"
-            BuildableName = "Lab3Fortunes.app"
-            BlueprintName = "Lab3Fortunes"
-            ReferencedContainer = "container:Lab3Fortunes.xcodeproj">
+            BuildableName = "Lab5FortunesDataPersistence.app"
+            BlueprintName = "Lab5FortunesDataPersistence"
+            ReferencedContainer = "container:Lab5FortunesDataPersistence.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA22E83E19E0E4A100F7831F"
-            BuildableName = "Lab3Fortunes.app"
-            BlueprintName = "Lab3Fortunes"
-            ReferencedContainer = "container:Lab3Fortunes.xcodeproj">
+            BuildableName = "Lab5FortunesDataPersistence.app"
+            BlueprintName = "Lab5FortunesDataPersistence"
+            ReferencedContainer = "container:Lab5FortunesDataPersistence.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

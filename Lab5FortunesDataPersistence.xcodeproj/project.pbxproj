@@ -14,13 +14,26 @@
 		DA22E84F19E0E4A100F7831F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E84E19E0E4A100F7831F /* main.m */; };
 		DA22E85319E0E4A100F7831F /* TLNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E85219E0E4A100F7831F /* TLNAppDelegate.m */; };
 		DA22E85619E0E4A100F7831F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA22E85419E0E4A100F7831F /* Main.storyboard */; };
-		DA22E85919E0E4A100F7831F /* TLNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E85819E0E4A100F7831F /* TLNViewController.m */; };
+		DA22E85919E0E4A100F7831F /* TLNFortunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E85819E0E4A100F7831F /* TLNFortunesViewController.m */; };
 		DA22E85B19E0E4A100F7831F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA22E85A19E0E4A100F7831F /* Images.xcassets */; };
 		DA22E86219E0E4A100F7831F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA22E86119E0E4A100F7831F /* XCTest.framework */; };
 		DA22E86319E0E4A100F7831F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA22E84219E0E4A100F7831F /* Foundation.framework */; };
 		DA22E86419E0E4A100F7831F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA22E84619E0E4A100F7831F /* UIKit.framework */; };
 		DA22E86C19E0E4A100F7831F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA22E86A19E0E4A100F7831F /* InfoPlist.strings */; };
-		DA22E86E19E0E4A100F7831F /* Lab3FortunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E86D19E0E4A100F7831F /* Lab3FortunesTests.m */; };
+		DA22E86E19E0E4A100F7831F /* Lab4Fortunes2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E86D19E0E4A100F7831F /* Lab4Fortunes2Tests.m */; };
+		DA22E87C19E0E59C00F7831F /* TLNFortunesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22E87B19E0E59C00F7831F /* TLNFortunesModel.m */; };
+		DA2515F51A0DB87900EC56D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2515F41A0DB87900EC56D1 /* AudioToolbox.framework */; };
+		DA2515F71A0DBA1E00EC56D1 /* TaDa.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA2515F61A0DBA1E00EC56D1 /* TaDa.wav */; };
+		DA3F26FF1A03EB55002126A3 /* TLNInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3F26FE1A03EB55002126A3 /* TLNInputViewController.m */; };
+		DABC270719E0F02200654D10 /* CrystalBall.png in Resources */ = {isa = PBXBuildFile; fileRef = DABC270319E0F02200654D10 /* CrystalBall.png */; };
+		DABC270819E0F02200654D10 /* CrystalBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DABC270419E0F02200654D10 /* CrystalBall@2x.png */; };
+		DABC270919E0F02200654D10 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DABC270519E0F02200654D10 /* Icon.png */; };
+		DABC270A19E0F02200654D10 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DABC270619E0F02200654D10 /* Icon@2x.png */; };
+		DAC6F5301A046E2E00A4250C /* TLNAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC6F52F1A046E2E00A4250C /* TLNAnswersViewController.m */; };
+		DAC6F5351A046FDF00A4250C /* crystal_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC6F5311A046FDF00A4250C /* crystal_ball.png */; };
+		DAC6F5361A046FDF00A4250C /* crystal_ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC6F5321A046FDF00A4250C /* crystal_ball@2x.png */; };
+		DAC6F5371A046FDF00A4250C /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC6F5331A046FDF00A4250C /* help.png */; };
+		DAC6F5381A046FDF00A4250C /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC6F5341A046FDF00A4250C /* help@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +47,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA22E83F19E0E4A100F7831F /* Lab3Fortunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3Fortunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA22E83F19E0E4A100F7831F /* Lab5FortunesDataPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab5FortunesDataPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA22E84219E0E4A100F7831F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA22E84419E0E4A100F7831F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DA22E84619E0E4A100F7831F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DA22E84A19E0E4A100F7831F /* Lab3Fortunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3Fortunes-Info.plist"; sourceTree = "<group>"; };
+		DA22E84A19E0E4A100F7831F /* Lab5FortunesDataPersistence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab5FortunesDataPersistence-Info.plist"; sourceTree = "<group>"; };
 		DA22E84C19E0E4A100F7831F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA22E84E19E0E4A100F7831F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA22E85019E0E4A100F7831F /* Lab3Fortunes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab3Fortunes-Prefix.pch"; sourceTree = "<group>"; };
+		DA22E85019E0E4A100F7831F /* Lab5FortunesDataPersistence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab5FortunesDataPersistence-Prefix.pch"; sourceTree = "<group>"; };
 		DA22E85119E0E4A100F7831F /* TLNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNAppDelegate.h; sourceTree = "<group>"; };
 		DA22E85219E0E4A100F7831F /* TLNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNAppDelegate.m; sourceTree = "<group>"; };
 		DA22E85519E0E4A100F7831F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA22E85719E0E4A100F7831F /* TLNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNViewController.h; sourceTree = "<group>"; };
-		DA22E85819E0E4A100F7831F /* TLNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNViewController.m; sourceTree = "<group>"; };
+		DA22E85719E0E4A100F7831F /* TLNFortunesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNFortunesViewController.h; sourceTree = "<group>"; };
+		DA22E85819E0E4A100F7831F /* TLNFortunesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNFortunesViewController.m; sourceTree = "<group>"; };
 		DA22E85A19E0E4A100F7831F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DA22E86019E0E4A100F7831F /* Lab3FortunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3FortunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA22E86019E0E4A100F7831F /* Lab5FortunesDataPersistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab5FortunesDataPersistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA22E86119E0E4A100F7831F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DA22E86919E0E4A100F7831F /* Lab3FortunesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3FortunesTests-Info.plist"; sourceTree = "<group>"; };
+		DA22E86919E0E4A100F7831F /* Lab4Fortunes2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab4Fortunes2Tests-Info.plist"; sourceTree = "<group>"; };
 		DA22E86B19E0E4A100F7831F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DA22E86D19E0E4A100F7831F /* Lab3FortunesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3FortunesTests.m; sourceTree = "<group>"; };
+		DA22E86D19E0E4A100F7831F /* Lab4Fortunes2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab4Fortunes2Tests.m; sourceTree = "<group>"; };
+		DA22E87A19E0E59C00F7831F /* TLNFortunesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLNFortunesModel.h; path = ../TLNFortunesModel.h; sourceTree = "<group>"; };
+		DA22E87B19E0E59C00F7831F /* TLNFortunesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLNFortunesModel.m; path = ../TLNFortunesModel.m; sourceTree = "<group>"; };
+		DA2515F41A0DB87900EC56D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DA2515F61A0DBA1E00EC56D1 /* TaDa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TaDa.wav; sourceTree = "<group>"; };
+		DA3F26FD1A03EB55002126A3 /* TLNInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLNInputViewController.h; sourceTree = "<group>"; };
+		DA3F26FE1A03EB55002126A3 /* TLNInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNInputViewController.m; sourceTree = "<group>"; };
+		DABC270319E0F02200654D10 /* CrystalBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrystalBall.png; sourceTree = "<group>"; };
+		DABC270419E0F02200654D10 /* CrystalBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrystalBall@2x.png"; sourceTree = "<group>"; };
+		DABC270519E0F02200654D10 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DABC270619E0F02200654D10 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DAC6F52E1A046E2E00A4250C /* TLNAnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLNAnswersViewController.h; sourceTree = "<group>"; };
+		DAC6F52F1A046E2E00A4250C /* TLNAnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNAnswersViewController.m; sourceTree = "<group>"; };
+		DAC6F5311A046FDF00A4250C /* crystal_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_ball.png; sourceTree = "<group>"; };
+		DAC6F5321A046FDF00A4250C /* crystal_ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crystal_ball@2x.png"; sourceTree = "<group>"; };
+		DAC6F5331A046FDF00A4250C /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		DAC6F5341A046FDF00A4250C /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2515F51A0DB87900EC56D1 /* AudioToolbox.framework in Frameworks */,
 				DA22E84519E0E4A100F7831F /* CoreGraphics.framework in Frameworks */,
 				DA22E84719E0E4A100F7831F /* UIKit.framework in Frameworks */,
 				DA22E84319E0E4A100F7831F /* Foundation.framework in Frameworks */,
@@ -82,8 +112,8 @@
 		DA22E83619E0E4A100F7831F = {
 			isa = PBXGroup;
 			children = (
-				DA22E84819E0E4A100F7831F /* Lab3Fortunes */,
-				DA22E86719E0E4A100F7831F /* Lab3FortunesTests */,
+				DA22E84819E0E4A100F7831F /* Lab5FortunesDataPersistence */,
+				DA22E86719E0E4A100F7831F /* Lab5FortunesDataPersistence */,
 				DA22E84119E0E4A100F7831F /* Frameworks */,
 				DA22E84019E0E4A100F7831F /* Products */,
 			);
@@ -92,8 +122,8 @@
 		DA22E84019E0E4A100F7831F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA22E83F19E0E4A100F7831F /* Lab3Fortunes.app */,
-				DA22E86019E0E4A100F7831F /* Lab3FortunesTests.xctest */,
+				DA22E83F19E0E4A100F7831F /* Lab5FortunesDataPersistence.app */,
+				DA22E86019E0E4A100F7831F /* Lab5FortunesDataPersistenceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +131,7 @@
 		DA22E84119E0E4A100F7831F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA2515F41A0DB87900EC56D1 /* AudioToolbox.framework */,
 				DA22E84219E0E4A100F7831F /* Foundation.framework */,
 				DA22E84419E0E4A100F7831F /* CoreGraphics.framework */,
 				DA22E84619E0E4A100F7831F /* UIKit.framework */,
@@ -109,55 +140,104 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA22E84819E0E4A100F7831F /* Lab3Fortunes */ = {
+		DA22E84819E0E4A100F7831F /* Lab5FortunesDataPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				DA22E85119E0E4A100F7831F /* TLNAppDelegate.h */,
-				DA22E85219E0E4A100F7831F /* TLNAppDelegate.m */,
-				DA22E85419E0E4A100F7831F /* Main.storyboard */,
-				DA22E85719E0E4A100F7831F /* TLNViewController.h */,
-				DA22E85819E0E4A100F7831F /* TLNViewController.m */,
+				DABC270219E0EFC700654D10 /* Resources */,
+				DA22E87919E0E4BD00F7831F /* Controllers */,
+				DA22E87819E0E4B600F7831F /* View */,
+				DA22E87719E0E4AF00F7831F /* Model */,
 				DA22E85A19E0E4A100F7831F /* Images.xcassets */,
 				DA22E84919E0E4A100F7831F /* Supporting Files */,
 			);
+			name = Lab5FortunesDataPersistence;
 			path = Lab3Fortunes;
 			sourceTree = "<group>";
 		};
 		DA22E84919E0E4A100F7831F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA22E84A19E0E4A100F7831F /* Lab3Fortunes-Info.plist */,
+				DA22E85219E0E4A100F7831F /* TLNAppDelegate.m */,
+				DA22E85119E0E4A100F7831F /* TLNAppDelegate.h */,
+				DA22E84A19E0E4A100F7831F /* Lab5FortunesDataPersistence-Info.plist */,
 				DA22E84B19E0E4A100F7831F /* InfoPlist.strings */,
 				DA22E84E19E0E4A100F7831F /* main.m */,
-				DA22E85019E0E4A100F7831F /* Lab3Fortunes-Prefix.pch */,
+				DA22E85019E0E4A100F7831F /* Lab5FortunesDataPersistence-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DA22E86719E0E4A100F7831F /* Lab3FortunesTests */ = {
+		DA22E86719E0E4A100F7831F /* Lab5FortunesDataPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				DA22E86D19E0E4A100F7831F /* Lab3FortunesTests.m */,
+				DA22E86D19E0E4A100F7831F /* Lab4Fortunes2Tests.m */,
 				DA22E86819E0E4A100F7831F /* Supporting Files */,
 			);
+			name = Lab5FortunesDataPersistence;
 			path = Lab3FortunesTests;
 			sourceTree = "<group>";
 		};
 		DA22E86819E0E4A100F7831F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA22E86919E0E4A100F7831F /* Lab3FortunesTests-Info.plist */,
+				DA22E86919E0E4A100F7831F /* Lab4Fortunes2Tests-Info.plist */,
 				DA22E86A19E0E4A100F7831F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DA22E87719E0E4AF00F7831F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA22E87A19E0E59C00F7831F /* TLNFortunesModel.h */,
+				DA22E87B19E0E59C00F7831F /* TLNFortunesModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA22E87819E0E4B600F7831F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA22E85419E0E4A100F7831F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA22E87919E0E4BD00F7831F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA22E85719E0E4A100F7831F /* TLNFortunesViewController.h */,
+				DA22E85819E0E4A100F7831F /* TLNFortunesViewController.m */,
+				DA3F26FD1A03EB55002126A3 /* TLNInputViewController.h */,
+				DA3F26FE1A03EB55002126A3 /* TLNInputViewController.m */,
+				DAC6F52E1A046E2E00A4250C /* TLNAnswersViewController.h */,
+				DAC6F52F1A046E2E00A4250C /* TLNAnswersViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DABC270219E0EFC700654D10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA2515F61A0DBA1E00EC56D1 /* TaDa.wav */,
+				DABC270319E0F02200654D10 /* CrystalBall.png */,
+				DABC270419E0F02200654D10 /* CrystalBall@2x.png */,
+				DABC270519E0F02200654D10 /* Icon.png */,
+				DABC270619E0F02200654D10 /* Icon@2x.png */,
+				DAC6F5311A046FDF00A4250C /* crystal_ball.png */,
+				DAC6F5321A046FDF00A4250C /* crystal_ball@2x.png */,
+				DAC6F5331A046FDF00A4250C /* help.png */,
+				DAC6F5341A046FDF00A4250C /* help@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA22E83E19E0E4A100F7831F /* Lab3Fortunes */ = {
+		DA22E83E19E0E4A100F7831F /* Lab5FortunesDataPersistence */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA22E87119E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab3Fortunes" */;
+			buildConfigurationList = DA22E87119E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab5FortunesDataPersistence" */;
 			buildPhases = (
 				DA22E83B19E0E4A100F7831F /* Sources */,
 				DA22E83C19E0E4A100F7831F /* Frameworks */,
@@ -167,14 +247,14 @@
 			);
 			dependencies = (
 			);
-			name = Lab3Fortunes;
+			name = Lab5FortunesDataPersistence;
 			productName = Lab3Fortunes;
-			productReference = DA22E83F19E0E4A100F7831F /* Lab3Fortunes.app */;
+			productReference = DA22E83F19E0E4A100F7831F /* Lab5FortunesDataPersistence.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA22E85F19E0E4A100F7831F /* Lab3FortunesTests */ = {
+		DA22E85F19E0E4A100F7831F /* Lab5FortunesDataPersistenceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA22E87419E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab3FortunesTests" */;
+			buildConfigurationList = DA22E87419E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab5FortunesDataPersistenceTests" */;
 			buildPhases = (
 				DA22E85C19E0E4A100F7831F /* Sources */,
 				DA22E85D19E0E4A100F7831F /* Frameworks */,
@@ -185,9 +265,9 @@
 			dependencies = (
 				DA22E86619E0E4A100F7831F /* PBXTargetDependency */,
 			);
-			name = Lab3FortunesTests;
+			name = Lab5FortunesDataPersistenceTests;
 			productName = Lab3FortunesTests;
-			productReference = DA22E86019E0E4A100F7831F /* Lab3FortunesTests.xctest */;
+			productReference = DA22E86019E0E4A100F7831F /* Lab5FortunesDataPersistenceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA22E83A19E0E4A100F7831F /* Build configuration list for PBXProject "Lab3Fortunes" */;
+			buildConfigurationList = DA22E83A19E0E4A100F7831F /* Build configuration list for PBXProject "Lab5FortunesDataPersistence" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +298,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA22E83E19E0E4A100F7831F /* Lab3Fortunes */,
-				DA22E85F19E0E4A100F7831F /* Lab3FortunesTests */,
+				DA22E83E19E0E4A100F7831F /* Lab5FortunesDataPersistence */,
+				DA22E85F19E0E4A100F7831F /* Lab5FortunesDataPersistenceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +309,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABC270919E0F02200654D10 /* Icon.png in Resources */,
 				DA22E85B19E0E4A100F7831F /* Images.xcassets in Resources */,
+				DABC270A19E0F02200654D10 /* Icon@2x.png in Resources */,
 				DA22E84D19E0E4A100F7831F /* InfoPlist.strings in Resources */,
 				DA22E85619E0E4A100F7831F /* Main.storyboard in Resources */,
+				DABC270719E0F02200654D10 /* CrystalBall.png in Resources */,
+				DAC6F5371A046FDF00A4250C /* help.png in Resources */,
+				DABC270819E0F02200654D10 /* CrystalBall@2x.png in Resources */,
+				DAC6F5361A046FDF00A4250C /* crystal_ball@2x.png in Resources */,
+				DAC6F5351A046FDF00A4250C /* crystal_ball.png in Resources */,
+				DA2515F71A0DBA1E00EC56D1 /* TaDa.wav in Resources */,
+				DAC6F5381A046FDF00A4250C /* help@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA22E85919E0E4A100F7831F /* TLNViewController.m in Sources */,
+				DA22E85919E0E4A100F7831F /* TLNFortunesViewController.m in Sources */,
 				DA22E84F19E0E4A100F7831F /* main.m in Sources */,
+				DA3F26FF1A03EB55002126A3 /* TLNInputViewController.m in Sources */,
+				DAC6F5301A046E2E00A4250C /* TLNAnswersViewController.m in Sources */,
+				DA22E87C19E0E59C00F7831F /* TLNFortunesModel.m in Sources */,
 				DA22E85319E0E4A100F7831F /* TLNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA22E86E19E0E4A100F7831F /* Lab3FortunesTests.m in Sources */,
+				DA22E86E19E0E4A100F7831F /* Lab4Fortunes2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +361,7 @@
 /* Begin PBXTargetDependency section */
 		DA22E86619E0E4A100F7831F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA22E83E19E0E4A100F7831F /* Lab3Fortunes */;
+			target = DA22E83E19E0E4A100F7831F /* Lab5FortunesDataPersistence */;
 			targetProxy = DA22E86519E0E4A100F7831F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +470,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lab3Fortunes/Lab3Fortunes-Prefix.pch";
-				INFOPLIST_FILE = "Lab3Fortunes/Lab3Fortunes-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Lab3Fortunes/Lab5FortunesDataPersistence-Prefix.pch";
+				INFOPLIST_FILE = "Lab3Fortunes/Lab5FortunesDataPersistence-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Lab5FortunesDataPersistence;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +484,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lab3Fortunes/Lab3Fortunes-Prefix.pch";
-				INFOPLIST_FILE = "Lab3Fortunes/Lab3Fortunes-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Lab3Fortunes/Lab5FortunesDataPersistence-Prefix.pch";
+				INFOPLIST_FILE = "Lab3Fortunes/Lab5FortunesDataPersistence-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Lab5FortunesDataPersistence;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +507,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Lab3FortunesTests/Lab3FortunesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Lab3FortunesTests/Lab4Fortunes2Tests-Info.plist";
+				PRODUCT_NAME = Lab5FortunesDataPersistenceTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +525,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lab3Fortunes/Lab3Fortunes-Prefix.pch";
-				INFOPLIST_FILE = "Lab3FortunesTests/Lab3FortunesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Lab3FortunesTests/Lab4Fortunes2Tests-Info.plist";
+				PRODUCT_NAME = Lab5FortunesDataPersistenceTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA22E83A19E0E4A100F7831F /* Build configuration list for PBXProject "Lab3Fortunes" */ = {
+		DA22E83A19E0E4A100F7831F /* Build configuration list for PBXProject "Lab5FortunesDataPersistence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA22E86F19E0E4A100F7831F /* Debug */,
@@ -450,21 +544,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA22E87119E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab3Fortunes" */ = {
+		DA22E87119E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab5FortunesDataPersistence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA22E87219E0E4A100F7831F /* Debug */,
 				DA22E87319E0E4A100F7831F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DA22E87419E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab3FortunesTests" */ = {
+		DA22E87419E0E4A100F7831F /* Build configuration list for PBXNativeTarget "Lab5FortunesDataPersistenceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA22E87519E0E4A100F7831F /* Debug */,
 				DA22E87619E0E4A100F7831F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

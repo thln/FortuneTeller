@@ -42,7 +42,7 @@
 {
     [super viewDidLoad];
     
-    self.model = [[TLNFortunesModel alloc] init];
+    self.model = [TLNFortunesModel sharedModel];
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target:self action:@selector(switchViews:)];
     
@@ -66,7 +66,10 @@
     if (editingStyle == UITableViewCellEditingStyleDelete)
     {
         //Delete from the model
+        //NSLog(@"%i Fortunes", [self.model numberOfAnswers]);
+        //NSLog(@"Removing Fortune: %@", [self.model answerAtIndex:indexPath.row]);
         [self.model removeAnswerAtIndex:indexPath.row];
+        //NSLog(@"%i Fortunes", [self.model numberOfAnswers]);
         
         //Delete the row from the data source
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];

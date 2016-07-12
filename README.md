@@ -1,2 +1,2 @@
 # FortuneTeller
-One of my labs for ITP 342. THis is a fortune teller lab with data persistence.
+One of my labs for ITP 342. This is a fortune teller lab with data persistence. iOS App, built with xCode/Objective C.

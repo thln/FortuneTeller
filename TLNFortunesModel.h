@@ -10,4 +10,18 @@
 
 @interface TLNFortunesModel : NSObject
 
+//public properties
+@property (strong, nonatomic) NSString *secretAnswer;
+
+//public methods
++ (instancetype) sharedModel;
+- (NSString *) randomAnswer;
+- (NSUInteger) numberOfAnswers;
+- (NSString *) answerAtIndex: (NSUInteger) index;
+- (void) removeAnswerAtIndex: (NSUInteger) index;
+- (void) insertAnswer: (NSString *) answer atIndex: (NSUInteger) index;
+- (void) save;
+- (void) setSecretAnswer:(NSString *) newSecretAnswer;
+
+
 @end

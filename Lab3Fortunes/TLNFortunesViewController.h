@@ -1,5 +1,5 @@
 //
-//  TLNViewController.h
+//  TLNFortunesViewController.h
 //  Lab3Fortunes
 //
 //  Created by Tam Henry Le Nguyen on 10/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TLNViewController : UIViewController
+@interface TLNFortunesViewController : UIViewController
 
 @end
